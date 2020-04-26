@@ -135,8 +135,8 @@ div.gallery:hover {
   border: 1px solid blue;
 }
 div.gallery img {
-  width:20vw;
-  height:30vh;
+  max-width:100%;
+  height:auto;
 
 }
 div#gallery1{
@@ -150,8 +150,8 @@ div#gallery1:hover {
   border: 1px solid blue;
 }
 div#gallery1 img {
-  width:20vw;
-  height:30vh;
+   max-width:100%;
+  height:auto;
 
 }
 div#gallery2{
@@ -166,9 +166,8 @@ div#gallery2:hover {
   border: 1px solid blue;
 }
 div#gallery2 img {
-  width:20vw;
-  height:30vh;
-
+   max-width:100%;
+  height:auto;
 }
 div#gallery3{
 	position: relative;
@@ -181,15 +180,9 @@ div#gallery3:hover {
   border: 1px solid blue;
 }
 div#gallery3 img {
-  width:20vw;
-  height:30vh;
+  max-width:100%;
+  height:auto;
 }
 
 
 
-div#footer{
-	background:#BFBD93;
-}
-div#footer p{
-	margin:0;padding:5px 10px
-}
