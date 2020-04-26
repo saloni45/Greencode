@@ -101,8 +101,8 @@ div#gallery:hover {
   border: 0px solid blue;
 }
 div#gallery img {
-  width:60vw;
-  height:50vh;
+   max-width:100%;
+  height:auto;
   padding-right: 0vw;
 padding-left: 8vw;
 }
@@ -113,15 +113,3 @@ a{
  color:#000000;
 }
 
-#footer {
-position:relative;
-clear:both;
-bottom:0;
-margin:5em 0 0 0;
-padding:0;
-height:4em;
-line-height:4em;
-text-align:center;
-font-size:.7em;
-background-color:#ffffff;
-}
