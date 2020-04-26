@@ -69,7 +69,7 @@ div#header h1{
 	height:80px;
 	line-height:80px;
 	margin:0;
-	padding-left:300px;
+	padding-left:280px;
 	font-size: 70px;
 	color: #003366;
 	font-family: serif;
@@ -127,13 +127,5 @@ div#centre img{
 }
 
 
-div#footer{
-	background:#BFBD93;
-	clear:both;
-	width:100%
-}
-div#footer p{
-	margin:0;
-	padding:5px 10px
-}
+
 
