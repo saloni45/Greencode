@@ -105,8 +105,8 @@ div.gallery:hover {
   border: 1px solid blue;
 }
 div.gallery img {
-  width:30vw;
-  height:40vh;
+   max-width:100%;
+  height:auto;
 
 }
 div#gallery1{
@@ -120,9 +120,8 @@ div#gallery1:hover {
   border: 1px solid blue;
 }
 div#gallery1 img {
-
-  width:30vw;
-  height:40vh;
+ max-width:100%;
+  height:auto;
 
 }
 div#gallery2{
@@ -137,8 +136,8 @@ div#gallery2:hover {
   border: 1px solid blue;
 }
 div#gallery2 img {
-  width:30vw;
-  height:40vh;
+   max-width:100%;
+  height:auto;
 
 }
 div#gallery3{
@@ -153,8 +152,8 @@ div#gallery3:hover {
   border: 1px solid blue;
 }
 div#gallery3 img {
-  width:30vw;
-  height:40vh;
+  max-width:100%;
+  height:auto;
 
 }
 
