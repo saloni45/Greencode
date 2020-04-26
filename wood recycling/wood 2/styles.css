@@ -1,0 +1,150 @@
+html,body{
+	margin:0;
+	padding:0
+}
+body{
+	font: 76% arial,sans-serif;
+	text-align:center
+}
+p{
+	margin:0 10px 10px;
+
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  width: 100%;
+	z-index: 99999;
+	position: fixed;
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float:left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: serif;
+  font-style: oblique;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: lightgreen;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+#figure img{
+	width: 10vw;
+	height:20vh;
+ 	
+	position: absolute;
+	border-radius: 50%;
+	top: 0;
+	right:0;
+    display: block;
+   padding: 13vh 84vw; 
+}
+div#header{
+	background-color: white;
+}
+div#header h1{
+	text-align: center;
+	height:80px;
+	line-height:60px;
+	margin:0;
+	padding-left:250px;
+	font-size: 70px;
+	color: #003366;
+	font-family: serif;
+	font-style:oblique;
+	width: 60vw;
+
+}
+#header h1:hover{
+	color: orange;
+}
+#desc{
+	font-size: 30px;
+	padding-left: 400px;
+	margin:25px 0px 0px 0px;
+	text-align: center;
+	color: #0099cc;
+	width: 40vw;
+
+}
+
+div#container{
+	text-align:left;
+	width:90vw;
+	margin:0 auto;
+}
+div#content p {
+	line-height:1.5;
+	color: #669999;
+	padding-left:15vw;
+	padding-right: 0vw;
+text-align: center;
+	width:60vw;}
+.he{
+	padding-left: 35vw;
+}
+.hes{
+	padding-left: 40vw;
+}
+
+
+
+div#content{
+	display: inline-block;
+	margin-left : 0 180px;
+	margin-right:  0 180px;
+	margin-top: 80px;
+	width: 90%;
+	float:right;
+	font-size:20px;
+    width:90vw;
+}
+ div#list{
+	padding-left: 15vw;
+	width: 70%;
+	line-height: 1.5;
+	color: #669999;
+}
+div#list1{
+	
+	width: 70%;
+	line-height: 1.5;
+	color:black;
+}
+
+
+
+
+
+div#footer{
+	background:#BFBD93;
+	clear:both;
+	width:100%
+}
+div#footer p{
+	margin:0;
+	padding:5px 10px
+}
+
