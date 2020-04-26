@@ -96,15 +96,3 @@ p{
 	font-size: 20px;
 }
 
-#footer {
-position:relative;
-clear:both;
-bottom:0;
-margin:5em 0 0 0;
-padding:0;
-height:4em;
-line-height:4em;
-text-align:center;
-font-size:.7em;
-background-color:#ffffff;
-}
