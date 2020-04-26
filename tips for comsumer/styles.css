@@ -106,9 +106,8 @@ div.gallery:hover {
   border: 1px solid blue;
 }
 div.gallery img {
-  width:30vw;
-  height:50vh;
-
+  max-width:100%;
+  height:auto;
 }
 div#gallery1{
 	position: relative;
@@ -121,8 +120,8 @@ div#gallery1:hover {
   border: 1px solid blue;
 }
 div#gallery1 img {
-  width:30vw;
-  height:50vh;
+  max-width:100%;
+  height:auto;
 
 }
 div#gallery2{
@@ -137,9 +136,8 @@ div#gallery2:hover {
   border: 1px solid blue;
 }
 div#gallery2 img {
-  width:30vw;
-  height:50vh;
-
+   max-width:100%;
+  height:auto;
 }
 div.desc {
   padding: 25px;
