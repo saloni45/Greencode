@@ -111,8 +111,8 @@ div#content{
 	display: inline-block;
 	padding: 0vw;
 	margin:0vh;
-	width: 20vw;
-	height: 30vh;
+	 max-width:100%;
+  height:auto;
 	border-radius: 50%;
 }
 
@@ -120,6 +120,6 @@ div#content{
 display: inline-block;
 padding:0vw;
 	margin:0vh 0vw;
-	height: 20vh;
-
+	 max-width:100%;
+  height:auto;
 }
