@@ -106,8 +106,8 @@ div.gallery:hover {
   border: 1px solid blue;
 }
 div.gallery img {
-  width:30vw;
-  height:50vh;
+   max-width:100%;
+  height:auto;
 
 }
 div#gallery1{
