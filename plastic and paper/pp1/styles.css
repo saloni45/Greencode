@@ -1,0 +1,125 @@
+html,body{
+	margin:0;
+	padding:0;
+}
+body{
+	font: 100% arial,sans-serif;
+	text-align:left
+}
+p{
+	margin:0 10px 10px;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  width: 100%;
+	z-index: 99999;
+	position: fixed;
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float:left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: serif;
+  font-style: oblique;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color:lightgreen;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+
+
+div#header{
+	background-color:white;
+}
+div#header h1{
+	text-align: center;
+	height:80px;
+	line-height:60px;
+	margin:0;
+	padding-left:200px;
+	font-size: 50px;
+	color: #003366;
+	font-family: serif;
+	font-style:oblique;
+	width: 50vw;
+}
+ #header h1:hover{
+	color: orange;
+}
+div#container{
+	
+	width:90vw;
+	margin:0 auto;
+}
+div#content p {
+	line-height:1.5;
+	color: #669999;
+	padding-left: 0vw;
+	padding-right:  0vw 200vw;
+	width:60vw;
+
+}
+h2{
+	font-style: oblique;
+}
+div #content ul{
+	line-height:1.5;
+	color: #669999;
+	width: 50vw;
+}
+#wrapper li{
+	color: black;
+	font-size: 20px;
+}
+div#content{
+	display: inline-block;
+	margin-left : 0 180px;
+	margin-right:  0 180px;
+	margin-top: 40px;
+	width: 90%;
+ padding-right: 0vw;
+ padding-left: 15vw;
+	font-size:20px;
+    width:70vw;
+}
+
+
+.images{
+	display: inline-block;
+	padding: 0vw;
+	margin:0vh;
+	width: 20vw;
+	height: 30vh;
+	border-radius: 50%;
+}
+
+#imagess{
+display: inline-block;
+padding:0vw;
+	margin:0vh 0vw;
+	height: 20vh;
+
+}

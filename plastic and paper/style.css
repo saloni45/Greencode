@@ -1,0 +1,224 @@
+
+body {
+margin:.5em;
+padding:0;
+height:100%;
+background-color:#ffffff;
+color:#000000;  
+text-align:center;
+font-family:Arial, Helvetica, sans-serif;
+font-size:.9em;
+}
+#centerColumn {
+
+	text-align:left;
+	width:80vw;
+	margin:0 auto;
+
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  width: 100%;
+  z-index: 99999;
+  position: fixed;
+  height: 7vh;
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float:left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: serif;
+  font-style: oblique;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color:lightgreen;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+div#header{
+	background-color:white;
+}
+div#header h1{
+  text-align: center;
+	height:40px;
+	line-height:70px;
+	margin:0;
+	padding-left:200px;
+	font-size: 60px;
+width: 50vw;
+	color: #003366;
+	font-family: serif;
+	font-style:oblique;
+
+}
+div#content p {
+	line-height:1.5;
+	color: #669999;
+	padding-left: 0vw;
+	padding-right:  0vw 200vw;
+	width:60vw;
+
+}
+
+div#content{
+  display: inline-block;
+  margin-left : 0 180px;
+  margin-right:  0 180px;
+  margin-top: 90px;
+  width: 90%;
+  padding-right: 0vw;
+  padding-left: 10vw;
+  font-size:20px;
+    width:80vw;
+}
+#header: h1:hover{
+	color:orange;
+}
+
+
+
+p{
+	font-size: 20px;
+}
+div.gallery{
+	position: relative;
+	 margin: 20px;
+  border: 8px solid lightblue;
+  float: left;
+  width: 305px;
+}
+div.gallery:hover {
+  border: 1px solid blue;
+}
+div.gallery img {
+  width:20vw;
+  height:28vh;
+  
+
+}
+div.gallery2{
+	position: relative;
+	 margin: 20px;
+  border: 8px solid lightblue;
+  float: left;
+  width: 305px;
+}
+div.gallery2:hover {
+  border: 1px solid #00cc99;
+}
+div.gallery2 img {
+  width:20vw;
+  height:28vh;
+
+}
+div.gallery3{
+	position: relative;
+	 margin: 20px;
+  border: 8px solid lightblue;
+  float: left;
+  width: 305px;
+}
+div.gallery3:hover {
+  border: 1px solid #00cc99;
+}
+div.gallery3 img {
+  width:20vw;
+  height:28vh;
+
+}
+div.gallery4{
+	position: relative;
+	 margin: 20px;
+  border: 8px solid lightblue;
+  float: left;
+  width: 305px;
+}
+div.gallery4:hover {
+  border: 1px solid #00cc99;
+}
+div.gallery4 img {
+  width:20vw;
+  height:28vh;
+
+}
+div.gallery5{
+	position: relative;
+	 margin: 20px;
+  border: 8px solid lightblue;
+  float: left;
+  width: 305px;
+}
+div.gallery5:hover {
+  border: 1px solid #00cc99;
+}
+div.gallery5 img {
+  width:20vw;
+  height:28vh;
+
+}
+div.gallery6{
+	position: relative;
+	 margin: 20px;
+  border: 8px solid lightblue;
+  float: left;
+  width: 305px;
+}
+div.gallery6:hover {
+  border: 1px solid #00cc99;
+}
+div.gallery6 img {
+  width:20vw;
+  height:28vh;
+
+}
+div.desc {
+  padding:15px;
+  text-align: center;
+  
+}
+div.desc a{
+	font-size: 25px;
+}
+div.desc:hover{
+	background-color: #00cc99;
+}
+a{
+	padding:5px; 
+	text-decoration:none;
+ color:#000000;
+}
+
+#footer {
+position:relative;
+clear:both;
+bottom:0;
+margin:5em 0 0 0;
+padding:0;
+height:4em;
+line-height:4em;
+text-align:center;
+font-size:.7em;
+background-color:#ffffff;
+}
